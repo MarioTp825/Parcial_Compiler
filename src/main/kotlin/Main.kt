@@ -6,8 +6,10 @@ fun main(args: Array<String>) {
         println("Ingrese los datos a compilar:")
         val content = sc.nextLine()
 
+        println()
         println(compiler.stepOne(content))
         println(compiler.stepTwo())
         println(compiler.stepThree())
+        println(compiler.stepFour())
     }
 //posicion = inicial + velocidad * 60
